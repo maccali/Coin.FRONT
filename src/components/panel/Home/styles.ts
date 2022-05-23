@@ -9,11 +9,29 @@ export const BackBlock = styled.div`
 export const BackBlockWhite = styled.div`
   display: grid;
   grid-area: panel;
-  /* grid-template-columns: 
-  ; */
+  grid-template-columns: 1fr 368px;
+  grid-template-areas:
+    "menuTop menuTop"
+    "generalInfo generalInfo"
+    "historyService moreTest"
+    "importantNews importantNews";
   background: #eff2f9;
   border-radius: 30px;
-  /* margin-top: 35px;
-  margin-right: 35px;
-  margin-bottom: 35px; */
+
+  .menuTop {
+    grid-area: menuTop;
+  }
+
+  .generalInfo {
+    grid-area: generalInfo;
+  }
+  .historyService {
+    grid-area: historyService;
+  }
+  .moreTest {
+    grid-area: moreTest;
+  }
+  .importantNews {
+    grid-area: importantNews;
+  }
 `;

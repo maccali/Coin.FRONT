@@ -16,6 +16,11 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
   
+  /* .flickity-viewport{
+    /* height: 10%; */
+    
+  }
+   */
   `;
 
 export const theme = {

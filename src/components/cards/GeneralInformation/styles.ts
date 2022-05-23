@@ -5,7 +5,7 @@ export const Block = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 368px;
-  height: 176px;
+  height: 200px;
   align-items: center;
   margin-right: 20px;
 `;
@@ -44,10 +44,15 @@ export const Header = styled.div`
   padding: 24px 24px 0px 24px;
 `;
 
-export const Img = styled.img``;
+export const Img = styled.img`
+  width: 26px;
+  height: 26px;
+`;
 
 export const Percent = styled.div`
   div {
+    display: flex;
+    justify-content: center;
     width: 56px;
     height: 24px;
     border-radius: 20px;
@@ -64,11 +69,15 @@ export const Percent = styled.div`
 `;
 
 export const Number = styled.h3`
+  font-size: 36px;
+  font-weight: bold;
   padding-left: 24px;
   padding-right: 24px;
+  margin-bottom: 0;
 `;
 
 export const Legend = styled.p`
-padding: 0px 24px 24px 24px;
-
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 0px 24px 24px 24px;
 `;
