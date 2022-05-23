@@ -21,7 +21,11 @@ export default function GeneralInformation({
           <Header>
             <Img src={image} />
             <Percent>
-              <span>{percentNumber}</span>
+              {(percentNumber > 0) ?
+                <div className='green'>{percentNumber}</div>
+                :
+                <div className='red'>{percentNumber}</div>
+              }
             </Percent>
           </ Header>
           <Number>{number}</Number>

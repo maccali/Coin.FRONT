@@ -17,6 +17,9 @@ export const Card = styled.div`
   background: #ffffff;
   box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
   border-radius: 6px;
+
+  div {
+  }
 `;
 
 export const CardBack = styled.div`
@@ -34,13 +37,37 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `;
 
-export const Header = styled.div``;
+export const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 24px 0px 24px;
+`;
 
 export const Img = styled.img``;
 
-export const Percent = styled.div``;
+export const Percent = styled.div`
+  div {
+    width: 56px;
+    height: 24px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 10px;
+  }
 
-export const Number = styled.h3``;
+  div.green {
+    background: #1cbf84;
+  }
+  div.red {
+    background: #ef0c35;
+  }
+`;
 
-export const Legend = styled.p``;
+export const Number = styled.h3`
+  padding-left: 24px;
+  padding-right: 24px;
+`;
 
+export const Legend = styled.p`
+padding: 0px 24px 24px 24px;
+
+`;

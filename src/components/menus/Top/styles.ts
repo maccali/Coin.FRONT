@@ -61,30 +61,3 @@ export const ButtonProfile = styled.button`
   padding-right: 10px;
   color: rgba(86, 84, 104, 0.8);
 `;
-
-// <div className='search'>
-// <Search></Search>
-// </div>
-// <div className='buttonIconConfig'>
-// <ButtonIcon >
-//   <img src="/icons/config.png" alt="" />
-// </ButtonIcon>
-// </div>
-// <div className='buttonIconBell'>
-// <ButtonIcon>
-//   <img src="/icons/bell.png" alt="" />
-// </ButtonIcon>
-// </div>
-// <div className='buttonIconProfile'>
-// <ButtonProfile>
-//   <span></span>
-//   <b></b>
-//   <img src="/icons/felipe.png" alt="" />
-// </ButtonProfile>
-// </div>
-// <div className='buttonIconApp'>
-// <ButtonIcon>
-//   <img src="/icons/app.png" alt="" />
-
-// </ButtonIcon>
-// </div>
