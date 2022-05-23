@@ -8,9 +8,11 @@ export const Block = styled.div`
 `;
 
 export const GeneralInformationBlock = styled.div`
-  display:  flex;
-
-  & > * {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  /* width: 100vh; */
+  /* & > * {
     margin-right: 20px;
-  }
-`
+  } */
+`;

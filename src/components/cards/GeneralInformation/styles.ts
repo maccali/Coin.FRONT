@@ -7,6 +7,7 @@ export const Block = styled.div`
   width: 368px;
   height: 176px;
   align-items: center;
+  margin-right: 20px;
 `;
 
 export const Card = styled.div`

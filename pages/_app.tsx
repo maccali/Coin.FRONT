@@ -1,30 +1,10 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 import BackGround from '../src/components/sections/Background'
-// import Background from "../src/components/sections/Background"
 
+import { GlobalStyle, theme } from "./styles"
 
-const GlobalStyle = createGlobalStyle`
-
-
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-letter-spacing: 1px;
-  }
-`
-
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-}
+// import "./styles.css";
+import 'flickity/dist/flickity.min.css';
 
 export default function App({ Component, pageProps }) {
   return (
