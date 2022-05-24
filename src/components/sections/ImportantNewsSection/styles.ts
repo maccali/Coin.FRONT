@@ -17,3 +17,9 @@ export const ImportantNewsBlock = styled.div`
   width: 100%;
   border-radius: 6px;
 `;
+
+export const Rectangle = styled.div`
+  width: 173px;
+  height: 128px;
+  background: linear-gradient(90deg, #ffffff 0%, rgba(239, 242, 249, 0) 96.24%);
+`;

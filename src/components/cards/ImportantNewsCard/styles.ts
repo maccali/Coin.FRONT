@@ -22,7 +22,7 @@ export const Card = styled.div`
 export const Info = styled.div`
   margin: 20px 16px 16px 0px;
   display: flex;
-  flex-direction:  column;
+  flex-direction: column;
 
   p {
     font-family: "Open Sans";

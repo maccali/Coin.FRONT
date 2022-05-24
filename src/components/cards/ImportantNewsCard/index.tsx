@@ -1,4 +1,5 @@
 import { Card, Info } from './styles';
+import { CardBack } from './../GeneralInformation/styles';
 
 
 interface ImportantNewsCardInterfece {
@@ -18,7 +19,7 @@ export default function ImportantNewsCard({
 }: ImportantNewsCardInterfece) {
 
   return (
-    <>
+    <div>
       <Card>
         <div className='image'>
           <img src={image} alt={name} />
@@ -37,6 +38,6 @@ export default function ImportantNewsCard({
           <p className='textTwo'>Realizado em: {data}</p>
         </Info>
       </Card >
-    </>
+    </div>
   )
 }

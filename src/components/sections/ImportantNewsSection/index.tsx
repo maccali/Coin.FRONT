@@ -1,4 +1,4 @@
-import { Block, ImportantNewsBlock, Title } from './styles';
+import { Block, ImportantNewsBlock, Title, Rectangle } from './styles';
 import ImportantNewsCard from "../../cards/ImportantNewsCard"
 import Flickity from 'react-flickity-component'
 
@@ -50,6 +50,7 @@ export default function ImportantNewsService() {
               type='TDAH CAB ADHD'
             />
           </Flickity>
+          <Rectangle />
         </ImportantNewsBlock>
       </Block >
     </>

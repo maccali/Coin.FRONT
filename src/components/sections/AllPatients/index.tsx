@@ -50,15 +50,6 @@ export default function ImportantNewsService() {
               numberOfRealizedTests={6}
             />
 
-            {/* <Patient
-            image='icons/kuromi.png'
-            name='Kuromi Naori Kagasawa'
-            diagnosis='TDAH CAB ADHD, Autismo'
-            numberOfCanceledTests={0}
-            numberOfPendingTests={2}
-            numberOfRealizedTests={22}
-          /> */}
-
           </ImportantNewsBlock>
         </ImportantNewsBlockBack >
       </Block >
