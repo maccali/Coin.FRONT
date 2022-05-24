@@ -61,4 +61,40 @@ export const ButtonProfile = styled.button`
   padding-left: 10px;
   padding-right: 10px;
   color: rgba(86, 84, 104, 0.8);
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    img {
+      margin-left: 16px;
+    }
+  }
+
+  &:hover .dropdown-content {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    flex-direction: row;
+    width: 152px;
+    height: 144px;
+    margin-left: -16px;
+  }
+
+  &:hover .dropdown-content button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left: 16px;
+    width: 100%;
+    height: 33%;
+    border: none;
+    background-color: transparent;
+  }
+
+  &:hover .dropdown-content button img{
+    margin: 0;
+    margin-right: 16px;
+  }
 `;

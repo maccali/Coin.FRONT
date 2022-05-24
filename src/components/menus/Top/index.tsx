@@ -22,13 +22,23 @@ export default function MenuTop() {
           </ButtonIcon>
         </div>
         <div className='buttonIconProfile'>
-          <ButtonProfile>
+          <ButtonProfile className='dropdown'>
+
             <div>
               <span>Olá,</span>
               <b>Felipe</b>
+              <img src="/icons/felipe.png" alt="" />
             </div>
-            <img src="/icons/felipe.png" alt="" />
+
+            <div className="dropdown-content">
+              <button><p> Minha conta</p></button>
+              <button><p>Configurações</p></button>
+              <button> <img src="/icons/exit.png" alt="" /> <p>Sair</p></button>
+            </div>
           </ButtonProfile>
+          {/* <div className="dropdown-content">
+            <p>Hello World!</p>
+          </div> */}
         </div>
         <div className='buttonIconApp'>
           <ButtonIcon>
