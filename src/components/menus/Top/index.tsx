@@ -19,6 +19,7 @@ export default function MenuTop() {
         <div className='buttonIconBell'>
           <ButtonIcon>
             <img src="/icons/bell.png" alt="" />
+            <img className='signal' src="/icons/redDot.png" alt="" />
           </ButtonIcon>
         </div>
         <div className='buttonIconProfile'>

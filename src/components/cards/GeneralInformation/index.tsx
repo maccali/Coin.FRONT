@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 
 interface GeneralInformationCardInterfece {
   image: string
+  imageSignal?: string
   percentNumber: number
   number: number
   legend: string
@@ -21,7 +22,8 @@ export default function GeneralInformation({
   tileLegend,
   percentNumber,
   number,
-  tilenumber
+  tilenumber,
+  imageSignal
 }: GeneralInformationCardInterfece) {
 
   return (
@@ -31,7 +33,12 @@ export default function GeneralInformation({
 
         <Card id="reference">
           <Header>
+            <div>
+              
+            
             <Img src={image} />
+            <img src={imageSignal} className="signal" alt="" />
+            </div>
             <Percent>
               {(percentNumber > 0) ?
                 <div className='green'>{percentNumber}%</div>

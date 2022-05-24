@@ -42,6 +42,10 @@ export const Search = styled.div`
 export const ButtonIcon = styled.button`
   background-color: transparent;
   border: 0;
+
+  .signal {
+    position: absolute;
+  }
 `;
 
 export const ButtonProfile = styled.button`
@@ -93,7 +97,7 @@ export const ButtonProfile = styled.button`
     background-color: transparent;
   }
 
-  &:hover .dropdown-content button img{
+  &:hover .dropdown-content button img {
     margin: 0;
     margin-right: 16px;
   }

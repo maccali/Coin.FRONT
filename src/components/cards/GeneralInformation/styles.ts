@@ -42,6 +42,14 @@ export const Header = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 24px 24px 0px 24px;
+
+  div {
+    .signal {
+      position: relative;
+      top: -18px;
+      left: -30px;
+    }
+  }
 `;
 
 export const Img = styled.img`
