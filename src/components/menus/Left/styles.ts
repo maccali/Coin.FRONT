@@ -15,6 +15,10 @@ export const Menu = styled.div`
   width: 100%;
   margin-left: 40px;
 
+  .active {
+    background-image: url("/arts/menuRect.png");
+  }
+
   @media (max-width: 650px) {
     flex-direction: row;
     align-items: center;
@@ -25,17 +29,20 @@ export const Item = styled.a`
   cursor: pointer;
   display: flex;
   align-items: center;
-  transition: color 0.3s ease-out;
+  transition: background-image 0.3s ease-out;
   text-decoration: none;
-  width: calc(100% - 40px);
-  height: 40px;
+  width: 248px;
+  height: 104px;
 
   p {
     padding-left: 23px;
-    font-size: 12px;
     color: black;
     margin: 0;
     color: #fff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
   }
   &.active p {
     color: #111;

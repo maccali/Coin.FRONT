@@ -57,6 +57,9 @@ export const Percent = styled.div`
     height: 24px;
     border-radius: 20px;
     color: #fff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
     font-size: 10px;
   }
 
@@ -69,15 +72,18 @@ export const Percent = styled.div`
 `;
 
 export const Number = styled.h3`
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
-  font-weight: bold;
   padding-left: 24px;
   padding-right: 24px;
   margin-bottom: 0;
 `;
 
 export const Legend = styled.p`
+  font-weight: 400;
   font-size: 16px;
-  font-weight: lighter;
+  line-height: 24px;
   padding: 0px 24px 24px 24px;
 `;

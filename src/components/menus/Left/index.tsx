@@ -48,7 +48,8 @@ export const MenuLeft = () => {
       y: top - menuOffset.y,
       width: width,
       height: height,
-      backgroundColor: items[active].color,
+      
+      backgroundImage: items[active].color,
       ease: 'elastic.out(.7, .7)',
       duration: .8
     }
