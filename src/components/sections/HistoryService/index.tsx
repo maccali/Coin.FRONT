@@ -1,5 +1,6 @@
 import { Block, HistoryServiceBlock, Title } from './styles';
 import ServiceHistory from "../../cards/ServiceHistory"
+import Call from "../../buttons/Call"
 
 import Flickity from 'react-flickity-component'
 
@@ -16,8 +17,9 @@ export default function HistoryService() {
   return (
     <>
       <Block>
-        <div>
+        <div className='header'>
           <Title>Histórico de atendimentos</Title>
+          <Call name='VER TODOS' />
         </div>
         <HistoryServiceBlock >
           <Flickity

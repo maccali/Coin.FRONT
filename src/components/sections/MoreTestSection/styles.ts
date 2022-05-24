@@ -6,15 +6,6 @@ export const Block = styled.div`
   padding-left: 32px;
   padding-right: 32px;
   height: 100%;
-
-  .header {
-    display: flex;
-    align-items: center;
-
-    button {
-      margin-left: 12px;
-    }
-  }
 `;
 
 export const Title = styled.h3`
@@ -23,7 +14,7 @@ export const Title = styled.h3`
   margin-bottom: 22px;
 `;
 
-export const HistoryServiceBlock = styled.div`
+export const MoreTestBlock = styled.div`
   display: flex;
   width: 100%;
   height: 320px;

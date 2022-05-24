@@ -5,6 +5,8 @@ import { MenuLeft } from "../../../components/menus/Left"
 import MenuTop from "../../../components/menus/Top"
 import GeneralInfo from "../../../components/sections/GeneralInfo"
 import HistoryService from "../../../components/sections/HistoryService"
+import MoreTestSection from "../../../components/sections/MoreTestSection"
+import ImportantNewsSection from "../../../components/sections/ImportantNewsSection"
 import { BackBlock, BackBlockWhite } from "./styles"
 
 const Home: NextPage = () => {
@@ -22,8 +24,12 @@ const Home: NextPage = () => {
           <div className='historyService'>
             <HistoryService />
           </div>
-          <div className='moreTest'>moreTest</div>
-          <div className='importantNews'>importantNews</div>
+          <div className='moreTest'>
+            <MoreTestSection />
+          </div>
+          <div className='importantNews'>
+            <ImportantNewsSection />
+          </div>
         </ BackBlockWhite>
       </BackBlock>
     </>
