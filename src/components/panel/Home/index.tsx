@@ -7,31 +7,28 @@ import GeneralInfo from "../../../components/sections/GeneralInfo"
 import HistoryService from "../../../components/sections/HistoryService"
 import MoreTestSection from "../../../components/sections/MoreTestSection"
 import ImportantNewsSection from "../../../components/sections/ImportantNewsSection"
-import { BackBlock, BackBlockWhite } from "./styles"
+import { BackBlockWhite } from "./styles"
 
-const Home: NextPage = () => {
+function Home() {
   return (
     <>
-      <BackBlock>
-        <MenuLeft />
-        <BackBlockWhite>
-          <div className='menuTop'>
-            <MenuTop />
-          </div>
-          <div className='generalInfo'>
-            <GeneralInfo />
-          </div>
-          <div className='historyService'>
-            <HistoryService />
-          </div>
-          <div className='moreTest'>
-            <MoreTestSection />
-          </div>
-          <div className='importantNews'>
-            <ImportantNewsSection />
-          </div>
-        </ BackBlockWhite>
-      </BackBlock>
+      <BackBlockWhite>
+        <div className='menuTop'>
+          <MenuTop />
+        </div>
+        <div className='generalInfo'>
+          <GeneralInfo />
+        </div>
+        <div className='historyService'>
+          <HistoryService />
+        </div>
+        <div className='moreTest'>
+          <MoreTestSection />
+        </div>
+        <div className='importantNews'>
+          <ImportantNewsSection />
+        </div>
+      </ BackBlockWhite>
     </>
   )
 }

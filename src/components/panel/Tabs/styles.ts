@@ -1,27 +1,27 @@
 import styled from "styled-components";
 
 export const Block = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: "menu tabs";
+  grid-template-columns: 288px 1fr;
+
+  .tabs {
+    grid-area: tabs;
+  }
+
+  .menu {
+    grid-area: menu;
+  }
 `;
 
 export const Menu = styled.div`
   display: flex;
-  grid-area: menuLeft;
-  justify-content: space-between;
-  position: relative;
-  z-index: 1;
   flex-direction: column;
   width: 100%;
   margin-left: 40px;
 
   .active {
     background-image: url("/arts/menuRect.png");
-  }
-
-  @media (max-width: 650px) {
-    flex-direction: row;
-    align-items: center;
   }
 `;
 
@@ -34,8 +34,15 @@ export const Item = styled.a`
   width: 248px;
   height: 104px;
 
-  p {
+  img {
     padding-left: 23px;
+  }
+
+  &.active img {
+    filter: invert(100%);
+  }
+
+  p {
     color: black;
     margin: 0;
     color: #fff;
@@ -43,18 +50,12 @@ export const Item = styled.a`
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
+    padding-left: 16px;
   }
+
   &.active p {
     color: #111;
   }
-`;
-
-export const Indicator = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  border-radius: 30px 0px 0px 30px;
 `;
 
 export const Logo = styled.div`

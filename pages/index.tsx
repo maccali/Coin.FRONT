@@ -1,12 +1,11 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import HomePanel from "../src/components/panel/Home"
+
+import TabsPanel from "../src/components/panel/Tabs"
 
 const Home: NextPage = () => {
   return (
     <>
-      <HomePanel />
+      <TabsPanel />
     </>
   )
 }

@@ -9,8 +9,9 @@ export const Block = styled.div`
   height: 88px;
   background: #ffffff;
   border-radius: 30px 30px 0px 0px;
-  padding-right: 56px;
   padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 20px;
 `;
 
 export const Search = styled.div`

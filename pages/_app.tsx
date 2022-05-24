@@ -7,6 +7,7 @@ import { GlobalStyle, theme } from "./styles"
 
 // import "./styles.css";
 import 'flickity/dist/flickity.min.css';
+import 'react-tabs/style/react-tabs.css';
 
 export default function App({ Component, pageProps }) {
   return (
