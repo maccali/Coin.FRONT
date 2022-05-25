@@ -1,5 +1,5 @@
 import { Card, Info } from './styles';
-import { CardBack } from './../GeneralInformation/styles';
+import { CardBack } from '../GeneralInformation/styles';
 
 
 interface ImportantNewsCardInterfece {

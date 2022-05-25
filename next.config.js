@@ -5,6 +5,9 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   async rewrites() {
     return [
       // Rewrite everything to `pages/index`

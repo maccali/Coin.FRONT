@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { MenuLeft } from "../../../components/menus/Left"
-import MenuTop from "../../../components/menus/Top"
-import GeneralInfo from "../../../components/sections/GeneralInfo"
-import HistoryService from "../../../components/sections/HistoryService"
-import MoreTestSection from "../../../components/sections/MoreTestSection"
-import ImportantNewsSection from "../../../components/sections/ImportantNewsSection"
+import { MenuLeft } from "../../menus/Left"
+import MenuTop from "../../menus/Top"
+import GeneralInfo from "../../sections/GeneralInfo"
+import HistoryService from "../../sections/HistoryService"
+import MoreTestSection from "../../sections/MoreTestSection"
+import ImportantNewsSection from "../../sections/ImportantNewsSection"
 import { BackBlockWhite } from "./styles"
 
 function Home() {

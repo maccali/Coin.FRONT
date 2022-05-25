@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
-import MenuTop from "../../../components/menus/Top"
-import HistoryService from "../../../components/sections/HistoryServicePatient"
-import AllPatients from "../../../components/sections/AllPatients"
+import MenuTop from "../../menus/Top"
+import HistoryService from "../../sections/HistoryServicePatient"
+import AllPatients from "../../sections/AllPatients"
 import { BackBlockWhite } from "./styles"
 
-const Patients: NextPage = () => {
+export default function Patients() {
   return (
     <>
       <BackBlockWhite>
@@ -22,4 +22,3 @@ const Patients: NextPage = () => {
   )
 }
 
-export default Patients
