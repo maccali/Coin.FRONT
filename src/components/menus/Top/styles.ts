@@ -86,7 +86,7 @@ export const ButtonProfile = styled.button`
     margin-left: -16px;
   }
 
-  &:hover .dropdown-content button {
+  &:hover .dropdown-content a {
     display: flex;
     justify-items: center;
     align-items: center;
@@ -97,7 +97,7 @@ export const ButtonProfile = styled.button`
     background-color: transparent;
   }
 
-  &:hover .dropdown-content button img {
+  &:hover .dropdown-content a img {
     margin: 0;
     margin-right: 16px;
   }

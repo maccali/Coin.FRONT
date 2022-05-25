@@ -1,6 +1,5 @@
 import { Block, Search, ButtonIcon, ButtonProfile } from './styles';
 
-
 export default function MenuTop() {
   return (
     <>
@@ -32,9 +31,9 @@ export default function MenuTop() {
             </div>
 
             <div className="dropdown-content">
-              <button><p> Minha conta</p></button>
-              <button><p>Configurações</p></button>
-              <button> <img src="/icons/exit.png" alt="" /> <p>Sair</p></button>
+              <a><p> Minha conta</p></a>
+              <a><p>Configurações</p></a>
+              <a> <img src="/icons/exit.png" alt="" /> <p>Sair</p></a>
             </div>
           </ButtonProfile>
           {/* <div className="dropdown-content">

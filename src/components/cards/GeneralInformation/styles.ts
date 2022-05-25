@@ -8,6 +8,75 @@ export const Block = styled.div`
   height: 200px;
   align-items: center;
   margin-right: 20px;
+  margin-top: 50px;
+
+  .tile {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 80px;
+    z-index: 1;
+    top: -158px;
+    left: 50px;
+    background: transparent;
+    box-shadow: 4px 4px 16px transparent;
+    border-radius: 8px;
+    transition: all 0.3s;
+    padding: 16px;
+
+    div {
+      display: none;
+    }
+
+    div span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      color: #303b5a;
+      margin: 0;
+    }
+
+    div p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 33px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+
+    div p.true {
+      color: #1cbf84;
+    }
+
+    div p.false {
+      color: #eb0d35;
+    }
+  }
+
+  &:hover .tile {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 80px;
+    z-index: 1;
+    top: -158px;
+    left: 50px;
+    background: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 `;
 
 export const Card = styled.div`
@@ -24,7 +93,7 @@ export const Card = styled.div`
 `;
 
 export const CardBack = styled.div`
-  top: 10px;
+  top: 84px;
   position: relative;
   width: 296px;
   height: 172px;

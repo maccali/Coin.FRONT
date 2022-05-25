@@ -9,20 +9,16 @@ export const Block = styled.div`
 export const Title = styled.h3`
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 0px;
+  margin-bottom: -300px;
 `;
 
 export const GeneralInformationBlock = styled.div`
   display: flex;
   width: 100%;
-  height: 230px;
+  height: 270px;
   div {
     .flickity-viewport {
-      height: 230px !important;
+      height: 350px !important;
     }
   }
-  /* width: 100vh; */
-  /* & > * {
-    margin-right: 20px;
-  } */
 `;

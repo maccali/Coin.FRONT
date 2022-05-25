@@ -31,10 +31,10 @@ export default function GeneralInfo() {
           reloadOnUpdate
           static
         >
-          <GeneralInformation image='/icons/person.png' number={26} percentNumber={30} legend="Pacientes ativos" />
-          <GeneralInformation image='/icons/tube.png' number={306} percentNumber={-10} legend="Testes realizados" />
-          <GeneralInformation image='/icons/tubeGreen.png' imageSignal='/icons/c.png' number={139} percentNumber={30} legend="Testes concluídos" />
-          <GeneralInformation image='/icons/tubeRed.png' imageSignal='/icons/x.png' number={11} percentNumber={-3} legend="Testes cancelados" />
+          <GeneralInformation image='/icons/person.png' number={26} percentNumber={30} legend="Pacientes ativos" numberGoods tileLegend='Pacientes totais' tilenumber="268" />
+          <GeneralInformation image='/icons/tube.png' number={306} percentNumber={-10} legend="Testes realizados" numberGoods tileLegend='Testes totais' tilenumber="1.265" />
+          <GeneralInformation image='/icons/tubeGreen.png' imageSignal='/icons/c.png' number={139} percentNumber={30} legend="Testes concluídos" numberGoods tileLegend='Testes totais concluidos' tilenumber="10.550" />
+          <GeneralInformation image='/icons/tubeRed.png' imageSignal='/icons/x.png' number={11} percentNumber={-3} legend="Testes cancelados" tileLegend='Testes totais Cancelados' tilenumber="618" />
         </Flickity>
       </GeneralInformationBlock>
     </Block >
