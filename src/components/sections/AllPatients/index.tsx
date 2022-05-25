@@ -33,7 +33,7 @@ export default function ImportantNewsService() {
           </div>
           <ImportantNewsBlock >
             <Patient
-              image='icons/renata2.png'
+              image='/icons/renata2.png'
               name='Renata Augusto Ferreira'
               diagnosis='TDAH CAB ADHD, Autismo'
               numberOfCanceledTests={1}
@@ -42,7 +42,7 @@ export default function ImportantNewsService() {
             />
 
             <Patient
-              image='icons/leandro.png'
+              image='/icons/leandro.png'
               name='Leandro Motta Braga'
               diagnosis='TDAH CAB ADHD, Autismo'
               numberOfCanceledTests={0}

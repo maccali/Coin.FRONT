@@ -30,10 +30,10 @@ export default function HistoryService() {
             reloadOnUpdate
             static
           >
-            <ServiceHistory data='20/10/2023' image='icons/hsb.png' name='Renata Augusto Ferreira' testType='TDAH CAB ADHD' />
-            <ServiceHistory data='20/09/2023' image='icons/hsc.png' name='Renata Augusto Ferreira' testType='Autismo' />
-            <ServiceHistory data='20/10/2023' image='icons/hsb.png' name='Renata Augusto Ferreira' testType='TDAH CAB ADHD' />
-            <ServiceHistory data='20/09/2023' image='icons/hsc.png' name='Renata Augusto Ferreira' testType='Autismo' />
+            <ServiceHistory data='20/10/2023' image='/icons/hsb.png' name='Renata Augusto Ferreira' testType='TDAH CAB ADHD' />
+            <ServiceHistory data='20/09/2023' image='/icons/hsc.png' name='Renata Augusto Ferreira' testType='Autismo' />
+            <ServiceHistory data='20/10/2023' image='/icons/hsb.png' name='Renata Augusto Ferreira' testType='TDAH CAB ADHD' />
+            <ServiceHistory data='20/09/2023' image='/icons/hsc.png' name='Renata Augusto Ferreira' testType='Autismo' />
           </Flickity>
         </HistoryServiceBlock>
       </Block >

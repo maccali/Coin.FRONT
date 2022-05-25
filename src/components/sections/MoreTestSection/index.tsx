@@ -11,7 +11,7 @@ export default function MoreTestSection() {
           <Title>Teste Mais Realizado</Title>
         </div>
         <MoreTestBlock >
-          <MoreTest image='icons/hsc.png' number={13} type="Autismo" />
+          <MoreTest image='/icons/hsc.png' number={13} type="Autismo" />
         </MoreTestBlock>
       </Block >
     </>

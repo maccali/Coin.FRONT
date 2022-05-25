@@ -28,7 +28,7 @@ export default function ImportantNewsService() {
           >
             <ImportantNewsCard
               data='20/10/2023'
-              image='icons/renata.png'
+              image='/icons/renata.png'
               status='COMPLETE'
               name='Renata Augusto Ferreira'
               type='TDAH CAB ADHD'
@@ -36,7 +36,7 @@ export default function ImportantNewsService() {
 
             <ImportantNewsCard
               data='20/10/2023'
-              image='icons/carlos.png'
+              image='/icons/carlos.png'
               status='CANCELED'
               name='Carlos Nobrega Baccio'
               type='TDAH CAB ADHD'
@@ -44,7 +44,7 @@ export default function ImportantNewsService() {
 
             <ImportantNewsCard
               data='20/10/2023'
-              image='icons/suelton.png'
+              image='/icons/suelton.png'
               status='CANCELED'
               name='Suelton A. Mellis'
               type='TDAH CAB ADHD'
