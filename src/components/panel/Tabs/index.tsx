@@ -15,7 +15,6 @@ function TabsPanel() {
   return (
     <Block>
       <div className='menu'>
-
         <Logo>
           <img src="/arts/ident.png" alt="" />
           <img src="/arts/identLogo.png" alt="" />

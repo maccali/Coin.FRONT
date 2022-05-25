@@ -19,9 +19,10 @@ export const Menu = styled.div`
   flex-direction: column;
   width: 100%;
   margin-left: 40px;
-
+  background-color: transparent;
   .active {
     background-image: url("/arts/menuRect.png");
+    transition: all 0.3s;
   }
 `;
 
@@ -65,4 +66,8 @@ export const Logo = styled.div`
   width: 100%;
   height: 88px;
   margin-bottom: 20px;
+
+  img:last-child {
+    margin-left: 8px;
+  }
 `;

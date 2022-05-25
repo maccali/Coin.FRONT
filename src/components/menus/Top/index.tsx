@@ -6,7 +6,7 @@ export default function MenuTop() {
       <Block>
         <div className='search'>
           <Search>
-            <input type="text" />
+            <input type="text" placeholder='Busca...' />
             <img src="/icons/search.png" alt="" />
           </Search>
         </div>

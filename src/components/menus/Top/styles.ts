@@ -33,6 +33,18 @@ export const Search = styled.div`
     line-height: 19px;
   }
 
+  input::placeholder {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(44, 46, 61, 0.3);
+  }
+
   img {
     position: relative;
     margin-left: 12.5px;

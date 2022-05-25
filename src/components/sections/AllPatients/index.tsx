@@ -18,7 +18,7 @@ export default function ImportantNewsService() {
 
               <Search>
                 <div>
-                  <input type="text" />
+                  <input type="text" placeholder='Buscar paciente...'/>
                   <img src="/icons/search.png" alt="" />
                 </div>
               </Search>
