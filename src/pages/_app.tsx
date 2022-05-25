@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
 
   .dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
   }
 
   .dropdown-content {

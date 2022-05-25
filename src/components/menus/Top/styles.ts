@@ -96,6 +96,7 @@ export const ButtonProfile = styled.button`
     width: 152px;
     height: 144px;
     margin-left: -16px;
+    top: 51px;
   }
 
   &:hover .dropdown-content a {
