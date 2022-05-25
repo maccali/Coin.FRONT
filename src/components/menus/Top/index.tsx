@@ -24,7 +24,7 @@ export default function MenuTop() {
         <div className='buttonIconProfile'>
           <ButtonProfile className='dropdown'>
 
-            <div>
+            <div className='principal'>
               <span>Olá,</span>
               <b>Felipe</b>
               <img src="/icons/felipe.png" alt="" />

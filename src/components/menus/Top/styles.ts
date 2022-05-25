@@ -78,11 +78,12 @@ export const ButtonProfile = styled.button`
   padding-right: 10px;
   color: rgba(86, 84, 104, 0.8);
 
-  div {
+  div.principal {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    width: 100%;
 
     img {
       margin-left: 16px;
