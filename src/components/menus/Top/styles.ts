@@ -93,7 +93,7 @@ export const ButtonProfile = styled.button`
   &:hover .dropdown-content {
     display: flex;
     /* grid-template-columns: 1fr 1fr 1fr; */
-    flex-direction: row;
+    flex-direction: column;
     width: 152px;
     height: 144px;
     margin-left: -16px;
