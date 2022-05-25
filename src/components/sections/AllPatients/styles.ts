@@ -72,7 +72,7 @@ export const Search = styled.div`
       line-height: 19px;
     }
 
-    input {
+    input::placeholder {
       font-family: "Open Sans";
       font-style: normal;
       font-weight: 400;
