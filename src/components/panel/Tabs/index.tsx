@@ -52,11 +52,11 @@ function TabsPanel() {
         }
 
         {activeMenu == "TESTS" &&
-          "dfsa"
+          "Testes"
         }
 
         {activeMenu == "CONFIG" &&
-          "dfsa"
+          "Configuração"
         }
       </div>
 

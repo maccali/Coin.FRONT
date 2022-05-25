@@ -69,5 +69,7 @@ export const Logo = styled.div`
 
   img:last-child {
     margin-left: 8px;
+    width: 158px;
+    height: 20px;
   }
 `;
