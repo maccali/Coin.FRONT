@@ -23,7 +23,7 @@ export default function HistoryService({
             <img src={image} alt={name} />
           </div>
           <div className='back'>
-            <img src="icons/hsBack.png" alt={name} />
+            <img src="/icons/hsBack.png" alt={name} />
           </div>
         </div>
         <div className='text'>
