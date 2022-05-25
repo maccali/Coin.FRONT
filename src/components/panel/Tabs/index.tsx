@@ -17,7 +17,7 @@ function TabsPanel() {
       <div className='menu'>
         <Logo>
           <img src="/arts/ident.png" alt="" />
-          <img src="/arts/identLogo.png" alt="" />
+          <img src="/arts/identlogo.png" alt="" />
         </Logo>
         <Menu>
           <Item className={activeMenu == "DASH" ? "active" : ""} onClick={() => { setActiveMenu("DASH") }}>
